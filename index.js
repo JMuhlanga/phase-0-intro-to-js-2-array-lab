@@ -26,11 +26,11 @@ function prependCat(name){
 }
 
 function removeLastCat(){
-    const copyCats = cats.slice(-1);
-    return copyCats;
+    return cats.slice(0,-1);
+   ;
 }
 
 function removeFirstCat(){
-    const copyCats = cats.slice(0);
-    return copyCats;
+    return cats.slice(1);
+     
 }
